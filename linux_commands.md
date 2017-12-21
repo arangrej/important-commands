@@ -19,6 +19,16 @@ Copy file hdfs to hdfs : `hadoop fs -cp [HDFS_SOURCE_FILE_PATH] [HDFS_DESTINATIO
 
 Move file hdfs to hdfs : `hadoop fs -mv [HDFS_SOURCE_FILE_PATH] [HDFS_DESTINATION_FILE_PATH]`
 
+Linux shell command
+-----------
+File system disk usage : `df -h`
+
+Disk space for a directory : `du -sh [DIRECTORY_PATH]`
+
+Process list : `ps -ef`
+
+High memory consuming processes : `top`
+
 Spark shell command
 -----------
 
