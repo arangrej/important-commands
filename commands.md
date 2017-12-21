@@ -18,3 +18,8 @@ Copy file to local : `hadoop fs -copyToLocal [HDFS_FILE_PATH] [LOCAL_FILE_PATH]`
 Copy file hdfs to hdfs : `hadoop fs -cp [HDFS_SOURCE_FILE_PATH] [HDFS_DESTINATION_FILE_PATH]`
 
 Move file hdfs to hdfs : `hadoop fs -mv [HDFS_SOURCE_FILE_PATH] [HDFS_DESTINATION_FILE_PATH]`
+
+Spark shell command
+-----------
+
+spark-shell --master yarn-client --jars /home/hilabs/downloads/mysql-connector-java-5.1.39-bin.jar,/home/hilabs/downloads/spark-core-0.0.1-SNAPSHOT-jar-with-dependencies.jar
