@@ -22,4 +22,9 @@ Move file hdfs to hdfs : `hadoop fs -mv [HDFS_SOURCE_FILE_PATH] [HDFS_DESTINATIO
 Spark shell command
 -----------
 
-spark-shell --master yarn-client --jars /home/hilabs/downloads/mysql-connector-java-5.1.39-bin.jar,/home/hilabs/downloads/spark-core-0.0.1-SNAPSHOT-jar-with-dependencies.jar
+spark-shell --master yarn-client --jars [LIST_OF_COMMA_SEPARATED_JARS]
+
+Spark submit command
+-----------
+ 
+spark-submit --class [MAIN_CLASS] --master yarn --conf [KEY]=[VALUE] --jars [LIST_OF_COMMA_SEPARATED_JARS] [JAR_TO_EXECUTE] [ARGS]
