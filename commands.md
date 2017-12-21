@@ -17,4 +17,4 @@ Copy file to local : `hadoop fs -copyToLocal [HDFS_FILE_PATH] [LOCAL_FILE_PATH]`
 
 Copy file hdfs to hdfs : `hadoop fs -cp [HDFS_SOURCE_FILE_PATH] [HDFS_DESTINATION_FILE_PATH]`
 
-Move file HDFS to hdfs : `hadoop fs -mv [HDFS_SOURCE_FILE_PATH] [HDFS_DESTINATION_FILE_PATH]`
+Move file hdfs to hdfs : `hadoop fs -mv [HDFS_SOURCE_FILE_PATH] [HDFS_DESTINATION_FILE_PATH]`
