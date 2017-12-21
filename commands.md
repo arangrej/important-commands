@@ -1,7 +1,7 @@
 # HDFS Commands
 
 
-#### List Directory : `hadoop fs -ls [DIRECTORY_PATH]`
+List Directory : `hadoop fs -ls [DIRECTORY_PATH]`
 
 #### Remove Directory : `hadoop fs -rm -r [DIRECTORY_PATH]`
 
